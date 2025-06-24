@@ -5,14 +5,13 @@ import androidx.datastore.core.DataStore
 import androidx.datastore.preferences.core.Preferences
 import androidx.datastore.preferences.core.booleanPreferencesKey
 import androidx.datastore.preferences.core.edit
-import androidx.datastore.preferences.core.stringPreferencesKey
 import androidx.datastore.preferences.preferencesDataStore
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 
+//V-95,Paso 3.0 Dark Mode
 class StoreDarkMode(private val context: Context) {
 
-    //Vid 95
     companion object {
         private val Context.dataStore: DataStore<Preferences> by preferencesDataStore("DarkMode")
         val DARK_MODE = booleanPreferencesKey("dark_mode")
@@ -28,6 +27,4 @@ class StoreDarkMode(private val context: Context) {
             preferences[DARK_MODE] = value
         }
     }
-
-
 }
