@@ -25,7 +25,7 @@ solo se elimina cuando se elimina la app, ejemplo modo oscuro, un login.
 Estamos en un habitacion y nosotros podemos ocupar los diferentes recursos , 
 muebles recursos habitacion contexto.
 
-- Companion Object :Nos permite definir miembros sin crear clases
+- Companion Object :Nos permite definir miembros sin crear clases.
 
 ### The application looks like this:
 
